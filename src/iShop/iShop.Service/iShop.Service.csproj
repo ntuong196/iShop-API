@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.0-preview1-final" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iShop.Common\iShop.Common.csproj" />
+    <ProjectReference Include="..\iShop.Data\iShop.Data.csproj" />
+    <ProjectReference Include="..\iShop.Repo\iShop.Repo.csproj" />
+  </ItemGroup>
+</Project>
